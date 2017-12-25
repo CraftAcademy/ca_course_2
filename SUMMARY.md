@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Week 1 - Programming Basics - Ruby](chapter1.md)
-* Week 2 -Programming Basics - JavaScript
+* [Week 2 -Programming Basics - JavaScript](week-2-programming-basics-javascript.md)
 * Week 3 - TypeScript and Angular
 * Week 4 - Ruby on Rails Basics
 * Week 5 - Working With Legacy Code
