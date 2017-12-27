@@ -16,12 +16,8 @@ If you have any questions, feel free to contact us at info@craftacademy.se
 
 You can find more information about Craft Academy at:  [www.craftacademy.se](https://craftacademy.co)
 
-
-
 ![](https://github.com/CraftAcademy/craft-assets/blob/gh-pages/images/logo/logo-with-tagline_small.png?raw=true)
 
-[![](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)  
-Craft Academy Bootcamp by Pragmatic Sweden is licensed under a](http://creativecommons.org/licenses/by-nc/4.0/)[Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
-
-
+![](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)  
+[Craft Academy](https://craftacademy.co) Bootcamp by Pragmatic Sweden is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
