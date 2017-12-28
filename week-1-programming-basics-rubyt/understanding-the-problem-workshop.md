@@ -1,8 +1,8 @@
 ## Capturing requirements
 
+The very first thing we need to do in a Software Development project is to ...
+
 ### Telling a story
-
-
 
 ### Drawing an Picture
 
