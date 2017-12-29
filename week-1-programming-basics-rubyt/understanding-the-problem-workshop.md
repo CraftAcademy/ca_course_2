@@ -48,7 +48,7 @@ A well-told user story starts a conversation. A user story is an informal, natur
 
 #### Draw a Picture
 
-Flowcharts are a modeling technique that can help you visualize a flow of actions, data inputs and outcomes. Here 
+Flowcharts are a modeling technique that can help you visualize a flow of actions, data inputs and outcomes. Here's a very simple flowchart for the process of withdrawing funds from an ATM.
 
 ![](/assets/atm_flowchart_1.png)
 
