@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Week 1 - Programming Basics - Ruby](week-1-programming-basics-rubyt.md)
+  * [Understanding  The Problem - Workshop](week-1-programming-basics-rubyt/understanding-the-problem-workshop.md)
 * [Week 2 -Programming Basics - JavaScript](week-2-programming-basics-javascript.md)
 * [Week 3 - TypeScript and Angular](week-3-typescript-and-angular.md)
 * [Week 4 - Ruby on Rails Basics](week-4-ruby-on-rails-basics.md)
