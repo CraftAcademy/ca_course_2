@@ -2,7 +2,11 @@
 
 The first thing we need to do is to set up the necessary tools we'll be using. We know that we'll be using Ruby as the programming language. That is already set up on our system.
 
-We also know that we'll be trying to write our application using Test Driven Development - or at least try to do that. For that we'll need a testing framework. Enter RSpec - the most frequently used testing library for Ruby applications. Even though it has a very rich and powerful DSL \(domain-specific language\), at its core it is a simple tool which you can start using rather quickly.
+We also know that we'll be trying to write our application using Test Driven Development - or at least try to do that. For that we'll need a testing framework. Enter RSpec - the most frequently used testing library for Ruby applications. Even though it has a very rich and powerful DSL \(domain-specific language\), at its core it is a simple tool which you can start using rather quickly. The user story for the unit test is:
+
+`As a programmer              
+In order to work in a test driven way              
+I want unit test my code with RSpec`
 
 In order to be able to use it we need to install it. There are two ways to install libraries \(gems\). A direct install from your terminal \(`gem install rspec`\) or by adding a gem as a dependency to your application using [Bundler](http://bundler.io/). It is pretty simple, you just add a gem to a specific file named `Gemfile`.
 
@@ -70,7 +74,7 @@ Alright, that means we are set and ready to test.
 
 Let me put down some ground rules about version control. Commit often, write good commit messages and push up to your GitHub account. That is the only way for us coaches to see your progress. It does not matter if the code is working. We still want to see it. **BAD CODE is better then NO CODE!**
 
-At this stage you need to set up a git repository. I suggest that you create a GitHub repository, copy the address and add it as a remote to your local repository \(We are about to create one\).
+At this stage you need to set up a git repository. I suggest that you create a GitHub repository, copy the address and add it as a remote to your local repository \(We are about to create one\). 
 
 In your terminal, initialize a new git repository with the `init` command.
 
