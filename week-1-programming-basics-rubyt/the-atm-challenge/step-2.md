@@ -4,8 +4,8 @@ My approach to writing new software is to always do the most important thing fir
 
 The user story:
 
-`As a User              
- In order to make an withdrawal              
+`As a User   
+ In order to make an withdrawal  
  The ATM needs to have funds`
 
 So let's start with creating a `ATM` class and assign some funds to each `ATM` that we create. You already know a little bit about classes from the [Prep Course material](https://craftacademy.gitbooks.io/caa_precourse/content/ruby/classes.html).
