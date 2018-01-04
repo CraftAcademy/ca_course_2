@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [Week 1 - Programming Basics - Ruby](week-1-programming-basics-rubyt.md)
-* [Pair programming](pair-programming.md)
+  * [User stories](week-1-programming-basics-rubyt/user-stories.md)
+  * [Pair programming](pair-programming.md)
 * [Week 2 -Programming Basics - JavaScript](week-2-programming-basics-javascript.md)
 * [Week 3 - TypeScript and Angular](week-3-typescript-and-angular.md)
 * [Week 4 - Ruby on Rails Basics](week-4-ruby-on-rails-basics.md)
@@ -11,5 +12,4 @@
 * [Week 7 - Going Mobile](week-7-going-mobile.md)
 * [Week 8 & 9 - Advanced SaaS Applications](week-8-and-9-advanced-saas-applications.md)
 * [Week 10 - Expose and Consume API's](week-10-expose-and-consume-apis.md)
-* Pair programming
 

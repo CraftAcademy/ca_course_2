@@ -1,4 +1,4 @@
-#  **Pair programming**
+# **Pair programming**
 
 # **What is pair programming?**
 
@@ -8,9 +8,7 @@ This means that two programmers work at one workstation and work on the same scr
 
 ## **Why Pair programming? I can get more done on my own...**
 
-  
-Web development is a team effort. A modern web development team can have up to 10 developers working on the same application. This means that communication and the ability to work professionally together is more important than ever.  
-
+Web development is a team effort. A modern web development team can have up to 10 developers working on the same application. This means that communication and the ability to work professionally together is more important than ever.
 
 So why should we work in teams rather than alone? Don’t we get much more done when working alone?
 
@@ -44,7 +42,7 @@ The **navigator** will closely follow what the driver is doing, taking notice of
 
 ---
 
-"_Two coders disguised as a rally driver and navigator"_![](/assets/driver-navigator.png)
+"_Two coders disguised as a navigator and a rally driver"_![](/assets/driver-navigator.png)
 
 ---
 
@@ -58,13 +56,11 @@ The **driver** and **navigator** plan the session together by answering followin
 
 * Do we have a user story to work from?
 
-* How often should we switch roles?  
+* How often should we switch roles?
 
-You can either work for 25 minutes and then switch roles, or you can switch roles after making the tests go green 
+You can either work for 25 minutes and then switch roles, or you can switch roles after making the tests go green
 
 It all depends on how complicated the code is and how long it takes. But 25 minutes is a good rule of thumb.
-
-
 
 ### **Do’s and don’ts**
 
@@ -77,8 +73,6 @@ Do use the proper language eg “we” and “us” instead of “me” and “I
 Do think about personal space.
 
 Do commit and push your code regularly
-
-
 
 Don’t snatch the keyboard from the driver
 
@@ -108,8 +102,8 @@ _**Do you feel like pairing up is ineffective? Here are some indicators of non-p
 
 It takes two to make a pairing session work, and remember just like everything else this pair programming also requires practice.
 
-There will be very few challenges in this boot camp where you are required to code alone, and this is because we strongly believe that two coders produce better code.   
-  
-**  
+There will be very few challenges in this boot camp where you are required to code alone, and this is because we strongly believe that two coders produce better code.
+
+**    
 **
 
