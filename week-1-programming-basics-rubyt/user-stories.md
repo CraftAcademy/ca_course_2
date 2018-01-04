@@ -4,9 +4,9 @@ User stories are small stories to describe our users and what they want.
 
 When working in software development we want to follow Agile values and principles, the user stories help us to do just that. The three Agile principles user stories help us adhere to are the following:
 
-* Working software is theprimarymeasure of progress
+* Working software is the primary measure of progress
 
-* Our highest priority is to satisfy thecustomerthrough early and continuous delivery of valuable software
+* Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
 
 * Simplicity - the art of maximizing the amount of work not done - is essential
 
@@ -41,17 +41,15 @@ The format for the user story is the following:
 
 You have probably seen some user stories in the prep course, these are two examples from the fizzbuzz challenge
 
-`As a programmer    
-So that the game can be played according to the rules    
+`As a programmer      
+So that the game can be played according to the rules      
 I want a normal number to return that number`
 
-`As a programmer    
-So that the game can be played according to the rules    
+`As a programmer      
+So that the game can be played according to the rules      
 I want a number divisible by three to return 'fizz'`
 
-
-
-And here are some other examples
+**And here are some other examples**
 
 `As a user`
 
@@ -67,7 +65,9 @@ And here are some other examples
 
 The first line is telling us who the stakeholder is, it could be the user, the programmer, the admin and so on. The second line is giving us the requirement of the story, why should we implement the story. The third line is giving us the result or the output we expect.
 
+### **Some final words on user stories**
+
+From now on you will need user stories for all functionality you want to implement, you will either get some stories provided or you need to write your own. Having user stories is like planning ahead, they also give you small bite size chunks to work with rather than jumping in and quickly become confused on what or how to do something. Make sure to have the user story visible when working so that you remember the requirements.
 
 
-From now on you will need user stories for all functionality you want to implement, you will either get some stories provided or you need to write your own. Having user stories is like planning ahead, they also give you small bite size chunks to work with rather than jumping in and quickly become confused on what or how to do something.
 
