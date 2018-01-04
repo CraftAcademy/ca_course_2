@@ -7,10 +7,11 @@
 Read this entire README carefully and follow all instructions. Go to [CraftAcademy/library-challenge](https://github.com/CraftAcademy/library-challenge) and fork that repository to your own GitHub account.
 
 * Challenge time: this weekend, until Monday 9am
-* Feel free to use Google, Stack Overflow, your notes, previously written code, books, etc. but work on your own
+* Feel free to use Google, Stack Overflow, your notes, previously written code, books, etc. 
 * If you refer to or have in whole or partially used the solution of another coach or student, please put a link to that in your README
 * If you have a partial solution, **still check in a partial solution to GitHub and create a Pull Request**
 * You must submit a Pull Request to this repository with your code by 9.30am Monday morning - before the stand-up
+* You need to plan the weekend with your pairing partner so that you can pair program.
 
 ### Learning objective
 
@@ -22,42 +23,17 @@ This challenge will provide you with an opporunity to practice a lot of your new
 * Learn about YAML
 * Learn about storing information in a text file
 * Practice writing documentation
+* Learn to write user stories
+* Practice Pair programming
 
 ### Requirements
 
-##### Write a Library program with the following user stories:
+We are approached by a newly built library. They need an app to keep track of all the books. Luckily they have only received an handful of books so far and this is the perfect time to create a prototype.
 
-```
-As an individual
-In order to get my hands on a good book
-I would like to see a list of books currently available in the library
-with information about the title and author
-```
+**We have a chat with the librarians and they give us some requirements:**  
+We need an app where both the visitors and the library can see if a list of books are available, it would be nice to see both the title and the author of the book. The library needs to store these books in a file where we can easily check if a book is available or not. The library also needs the visitors to check out books after finding the title they want. Depending on the time of the checkout the library needs the books to be returned within a month and obviously it would be nice for the visitor to know which date to return the book.
 
-```
-As a library
-In order to have good books to offer to the public
-I would like to be able to have a collection of books stored in a file
-```
-
-```
-As a library
-In order to have good books to offer to the public
-I would like to be able to allow individuals to check out a book
-```
-
-```
-As a library
-In order to make the books available to many individuals
-I would like to set a return date on every check out
-and I would like that date to be 1 month from checkout date
-```
-
-```
-As an individual
-In order to avoid awkward moments at the library
-I would like to know when my book is supposed to be returned
-```
+You and your pairing partner needs to extract the user stories from the text above remember to keep it simple. Being a prototype we just need to see if the app works in IRB.
 
 ### Tasks
 
@@ -87,7 +63,7 @@ I would like to know when my book is supposed to be returned
 
 ##### I'm hoping to see that:
 
-* You can take a problem set and write a well tested implementation on your own.
+* You can take a problem set and write a well tested implementation.
 * You understand how to define Ruby Classes and work with objects.
 * You understand how classes can interact with each other.
 * You know how to make use of arrays, hashes, and associated methods to create dynamic lists.
