@@ -11,7 +11,7 @@ Read this entire README carefully and follow all instructions. Go to [CraftAcade
 * If you refer to or have in whole or partially used the solution of another coach or student, please put a link to that in your README
 * If you have a partial solution, **still check in a partial solution to GitHub and create a Pull Request**
 * You must submit a Pull Request to this repository with your code by 9.30am Monday morning - before the stand-up
-* You need to plan the weekend with your pairing partner so that you can pair program.
+* You need to plan the weekend with your pairing partner so that you can work efficiently.
 
 ### Learning objective
 
