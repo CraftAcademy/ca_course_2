@@ -9,7 +9,7 @@
 * Learn about using double, class\_double and instance\_double
 * Learn about debugging and common techniques
 * Work with user stories
-* Learning how to pair program
+* Learning how to pair program and work in a group
 
 ### The challenge
 
@@ -51,7 +51,7 @@ The following objectives must be met:
 * Test your code - both manually in IRB but, most importantly with automated tests.
 * You have to examine all tests ** **_**before**_** ** you write your production code. See tests as a blueprint for your implementation.
 * **Run one test at the time to avoid a massive output in your terminal.** Disable `it` blocks by adding  an `x` before \(as in `xit "Should..." do`\)
-* Make sure to **commit often** and \(if you are Pair Programming\) switch navigators \(the person that writes code\).
+* Make sure to **commit often** and  that you switch roles \(driver/navigator\) often. 
 
 This is a good time to read the [Naming Standards](../extras/naming_standards.md) section.
 
