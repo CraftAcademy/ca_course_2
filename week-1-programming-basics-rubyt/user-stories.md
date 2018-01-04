@@ -41,12 +41,12 @@ The format for the user story is the following:
 
 You have probably seen some user stories in the prep course, these are two examples from the fizzbuzz challenge
 
-`As a programmer      
-So that the game can be played according to the rules      
+`As a programmer        
+So that the game can be played according to the rules        
 I want a normal number to return that number`
 
-`As a programmer      
-So that the game can be played according to the rules      
+`As a programmer        
+So that the game can be played according to the rules        
 I want a number divisible by three to return 'fizz'`
 
 **And here are some other examples**
@@ -56,6 +56,8 @@ I want a number divisible by three to return 'fizz'`
 `In order to get product updates through email`
 
 `I want to add my email to my profile page`
+
+
 
 `As a user`
 
@@ -68,6 +70,4 @@ The first line is telling us who the stakeholder is, it could be the user, the p
 ### **Some final words on user stories**
 
 From now on you will need user stories for all functionality you want to implement, you will either get some stories provided or you need to write your own. Having user stories is like planning ahead, they also give you small bite size chunks to work with rather than jumping in and quickly become confused on what or how to do something. Make sure to have the user story visible when working so that you remember the requirements.
-
-
 
