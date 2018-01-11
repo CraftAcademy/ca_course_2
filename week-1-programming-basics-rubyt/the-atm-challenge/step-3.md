@@ -1,6 +1,10 @@
 # Step 3
 
-Okay, so we have a basic `withdraw` method for our Atm class. It's a good start. Now, if we have a look at the requirements we initially got from our client, we see that a successful withdraw should generate a response in the form of a Hash.
+Okay, so we have a basic `withdraw` method for our Atm class. It's a good start. Now, if we have a look at the requirements we initially got from our client, we see that a successful withdraw should generate a response in the form of a Hash.The user story for the response is:
+
+`As an Account holder       
+In order to know if my withdrawl was successful or unsuccessful       
+I want recieve a message with my withdrawl details`
 
 **This hash is the equivalent of a receipt that the Atm prints out in the real life.** It should look like this if the transaction was successful:
 
