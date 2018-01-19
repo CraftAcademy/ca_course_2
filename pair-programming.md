@@ -102,8 +102,8 @@ _**Do you feel like pairing up is ineffective? Here are some indicators of non-p
 
 It takes two to make a pairing session work, and remember just like everything else this pair programming also requires practice.
 
-There will be very few challenges in this boot camp where you are required to code alone, and this is because we strongly believe that two coders produce better code.
+There will be very few challenges in this boot camp where you are required to code alone, and this is because we strongly believe that two coders produce better code. 
 
-**    
+**      
 **
 
