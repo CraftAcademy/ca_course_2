@@ -1,4 +1,4 @@
-## Step 7 - Cash is King
+## Step 6 - Cash is King
 
 Yeah, remember when we kind of skipped adding bills to our successful output? We can't ignore that requirement any longer. After all, the cash is the reason we use ATM's.
 
@@ -8,11 +8,9 @@ Another thing we know is that one of the conditions for a successful transaction
 
 Knowing all this, we can build a method that tells us what bills we will get from the ATM.
 
-`As an Account holder  
-In order to withdraw bills  
+`As an Account holder    
+In order to withdraw bills    
 I want to receive funds in 5, 10 & 20$ bills`
-
-
 
 Let's try some stuff out in `irb`. **As always, read the comments as carefully as anything else in this documentation.**
 

@@ -4,8 +4,8 @@ My approach to writing new software is to always do the most important thing fir
 
 The user story:
 
-`As a User   
- In order to make an withdrawal  
+`As a User     
+ In order to make an withdrawal    
  The ATM needs to have funds`
 
 So let's start with creating a `ATM` class and assign some funds to each `ATM` that we create. You already know a little bit about classes from the [Prep Course material](https://craftacademy.gitbooks.io/caa_precourse/content/ruby/classes.html).
@@ -19,6 +19,8 @@ As a reminder, It is important that we agree on three things at this point.
 * Your **settings** \(like Gemfile, etc.\) are placed in the main project folder
 
 Alright?
+
+### First test
 
 Okay, moving on... Create a new file named `atm_spec.rb` in your `spec` folder.
 
@@ -148,7 +150,7 @@ Finished in 0.00195 seconds (files took 0.67858 seconds to load)
 1 example, 0 failures
 ```
 
-Yay! First success! Green is GOOD!
+**Yay! First success! Green is GOOD!**
 
 **Lesson learned:**  Every feature, no matter how small, will lead to a series of failures. Until it doesn't. This goes for new, inexperienced programmers, as well as for those of us who has been doing this for a long time. There's nothing wrong with you. Just get used to it and see everything you do as a learning experience.
 

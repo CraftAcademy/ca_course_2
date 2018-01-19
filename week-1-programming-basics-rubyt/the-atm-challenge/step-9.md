@@ -1,12 +1,10 @@
-## Step 9 - The Person
+## Step 8 - The Person
 
 At this step we want to create a Person class and give him 3 attributes: `:name`, `:cash` and `:account`. We will give you a basic set of specs for that class. Your job will be to implement the code that will make these specs pass.
 
-`As a Bank    
-In order to give customers access to our services     
-We want to give each person a separate account where they can manage their funds `
-
-
+`As a Bank      
+In order to give customers access to our services       
+We want to give each person a separate account where they can manage their funds`
 
 Remember, you are free to modify these specs if you find any flaws in it OR if you find another way of testing the same behavior.
 

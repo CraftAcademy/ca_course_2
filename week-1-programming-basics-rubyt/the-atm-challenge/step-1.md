@@ -4,9 +4,9 @@ The first thing we need to do is to set up the necessary tools we'll be using. W
 
 We also know that we'll be trying to write our application using Test Driven Development - or at least try to do that. For that we'll need a testing framework. Enter RSpec - the most frequently used testing library for Ruby applications. Even though it has a very rich and powerful DSL \(domain-specific language\), at its core it is a simple tool which you can start using rather quickly. The user story for the unit test is:
 
-`As a programmer     
-In order to work in a test driven way     
-I want unit test my code `
+`As a programmer         
+In order to work in a test driven way         
+I want unit test my code`
 
 In order to be able to use it we need to install it. There are two ways to install libraries \(gems\). A direct install from your terminal \(`gem install rspec`\) or by adding a gem as a dependency to your application using [Bundler](http://bundler.io/). It is pretty simple, you just add a gem to a specific file named `Gemfile`.
 
@@ -52,7 +52,7 @@ Edit the `.rspec` file and add --format documentation to see a more verbose rspe
 
 _.rspec_
 
-```
+```ruby
 --format documentation
 --color
 --require spec_helper
@@ -60,7 +60,7 @@ _.rspec_
 
 Now, if you go back to your terminal and run the rspec command, you should see something like this.
 
-```
+```ruby
 $ rspec
 No examples found.
 
@@ -78,7 +78,7 @@ At this stage you need to set up a git repository. I suggest that you create a G
 
 In your terminal, initialize a new git repository with the `init` command.
 
-```
+```ruby
 $ git init
 Initialized empty Git repository in /your/path/atm/.git/
 ✔ ~/your/path/atm [master|…2]
@@ -102,7 +102,7 @@ _.gitignore_
 
 Now, perform the following steps.
 
-```
+```bash
 $ git remote add origin <your git repo url>
 $ git add . 
 $ git commit -am "<your message>"
