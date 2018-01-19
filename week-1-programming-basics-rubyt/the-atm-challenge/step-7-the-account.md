@@ -3,7 +3,7 @@
 Now that we are finished \(at least for now\) with the Atm class, we should move forward and create the`Account` class.
 
 ```
-As a Bank Costumer
+As a Customer
 In order to manage my funds
 I need to have a personal account
 ```
