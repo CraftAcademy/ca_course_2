@@ -4,9 +4,11 @@
 
 Okay, so we have a basic `withdraw` method for our Atm class. It's a good start. Now, if we have a look at the requirements we initially got from our client, we see that a successful withdraw should generate a response in the form of a Hash.The user story for the response is:
 
-`As a User               
+```
+As a User               
 In order to know if my withdrawal was successful or unsuccessful               
-I want to receive a message with my withdrawal details`
+I want to receive a message with my withdrawal details
+```
 
 **This hash is the equivalent of a receipt that the Atm prints out in the real life.** It should look like this if the transaction was successful:
 
@@ -52,9 +54,11 @@ Let's start with preparing our test.
 
 The ATM needs to interact with another class - we will call it `Account`. The Account class will symbolize both the bank account and a card we can use in the ATM \(there is no need to create both an Account class _and_ a Card class for the sake of this prototype\).
 
-`As a Bank          
+```
+As an ATM operator          
 In order for the right person to make a withdrawal            
-Each person need to have an separate account`
+Each person need to have an separate account
+```
 
 However, we have not created that class yet, so in out `atm_spec` we will use a so called `instance_double` in order to be able to test the functionality. Doubles are objects that can be used as stand-ins for instances of other classes \(hence the name `instance_double`\). Even if they still are not defined \(as in our case\). We will go over doubles more extensively further down the road in the camp. You can think of doubles as "fake" objects that we use for testing. We don't want to build the `Account` class yet, so we'll just make a fake one for now.
 
@@ -80,9 +84,11 @@ end
 
 Okay, we want the `withdraw` method to have access to the `account` object in order to know things about it. Things like a `balance` for instance, right? **The ATM needs to know if there are enough funds in the account before it clears the transaction.**
 
-`As a Bank           
+```
+As a ATM operator           
 In order ensure that an Acccount holder can only withdraw funds that he has balance for           
-We want to allow a withdrawal only if there are sufficient funds in the account`
+We want to allow a withdrawal only if there are sufficient funds in the account
+```
 
 First we will write a test and then we will modify the implementation code.
 

@@ -237,7 +237,7 @@ Can you understand what we are doing here?
 It is time for you to start to write code on your own. There is yet another one check we need to perform. The `account_status` attribute will tell us if an account is `active` or `disabled`.
 
 ```
-As a Bank             
+As a ATM operator             
 In order to allow access active customers             
 I want to allow withdrawals from only active accounts
 ```

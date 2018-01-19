@@ -3,7 +3,7 @@
 At this step we want to create a Person class and give him 3 attributes: `:name`, `:cash` and `:account`. We will give you a basic set of specs for that class. Your job will be to implement the code that will make these specs pass.
 
 ```
-As a Bank      
+As a ATM operator      
 In order to keep track of our costumers     
 We want to assign each account to a separate person
 ```

@@ -31,31 +31,41 @@ Why we are building
 
 The format for the user story is the following:
 
-`As a <stakeholder>            
+```
+As a <stakeholder>            
 In order to <requirement>            
-I want <result>`
+I want <result>
+```
 
 ### Examples of user stories
 
 You have probably seen some user stories in the prep course, these are two examples from the fizzbuzz challenge
 
-`As a programmer            
+```
+As a programmer            
 So that the game can be played according to the rules            
-I want a normal number to return that number`
+I want a normal number to return that number
+```
 
-`As a programmer            
+```
+As a programmer            
 So that the game can be played according to the rules            
-I want a number divisible by three to return 'fizz'`
+I want a number divisible by three to return 'fizz'
+```
 
 **And here are two other examples**
 
-`As a user            
+```
+As a user            
 In order to get product updates through email            
-I want to add my email to my profile page`
+I want to add my email to my profile page
+```
 
-`As a User            
+```
+As a User            
 In order to keep my password safe            
-I want to be able to change my password`
+I want to be able to change my password
+```
 
 The first line is telling us who the stakeholder is, it could be the user, the programmer, the admin and so on. The second line is giving us the requirement of the story, why should we implement the story. The third line is giving us the result or the output we expect.
 
