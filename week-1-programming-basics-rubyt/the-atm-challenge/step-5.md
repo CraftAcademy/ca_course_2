@@ -43,6 +43,12 @@ end
 
 Another check we need to do in the `withdraw` method is to see if there are funds in the ATM, right?  We can not perform a transaction if there are no funds in the machine.
 
+```
+As a Bank
+In order for our costumers to withdraw funds
+We need make sure that we only allow withdrawals if there are funds available
+```
+
 The ATM has a `funds` attribute. We can perform a check if the `amount` we try to withdraw is larger then the `funds` available.
 
 Let's add a spec for that.
@@ -95,9 +101,11 @@ end
 
 The next check will be to make sure that the user passes in the right pin code when trying to withdraw money from his account - just as in normal life.
 
-`As an Account holder             
+```
+As an Account holder             
 In order to keep my funds secure             
-I want to have a secure Pin code & an expiry date on my card that allows only me access to my funds`
+I want  a secure Pin code & an expiry date on my card that allows only me access to my funds
+```
 
 We will need to modify the `withdraw` to accept a `pin_code` at one of the arguments. This will have an effect on all our tests.
 
@@ -228,9 +236,11 @@ Can you understand what we are doing here?
 
 It is time for you to start to write code on your own. There is yet another one check we need to perform. The `account_status` attribute will tell us if an account is `active` or `disabled`.
 
-`As a Bank             
+```
+As a Bank             
 In order to allow access active customers             
-I want to allow withdrawals from only active accounts`
+I want to allow withdrawals from only active accounts
+```
 
 Our `class_double` will be updated with this attribute to look like this.
 
