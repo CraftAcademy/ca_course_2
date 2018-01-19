@@ -2,8 +2,9 @@
 
 * [Introduction](README.md)
 * [Week 1 - Programming Basics - Ruby](week-1-programming-basics-rubyt.md)
-  * [User stories](week-1-programming-basics-rubyt/user-stories.md)
+  * [Understanding the problem statement](understanding-the-problem-statement.md)
   * [Pair programming](pair-programming.md)
+  * [User stories](week-1-programming-basics-rubyt/user-stories.md)
   * [The ATM challenge](week-1-programming-basics-rubyt/the-atm-challenge.md)
     * [Step 1 - Setting the stage](week-1-programming-basics-rubyt/the-atm-challenge/step-1.md)
     * [Step 2 - The core functionality](week-1-programming-basics-rubyt/the-atm-challenge/step-2.md)
