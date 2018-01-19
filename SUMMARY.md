@@ -16,6 +16,7 @@
     * [Step 9 - Making it all work together](week-1-programming-basics-rubyt/the-atm-challenge/step-8.md)
   * [Library Challenge](week-1-programming-basics-rubyt/library-challenge.md)
     * [Important Topics](week-1-programming-basics-rubyt/library-challenge/important-topice.md)
+  * [Extras](week-1-programming-basics-rubyt/extras.md)
 * [Week 2 -Programming Basics - JavaScript](week-2-programming-basics-javascript.md)
 * [Week 3 - TypeScript and Angular](week-3-typescript-and-angular.md)
 * [Week 4 - Ruby on Rails Basics](week-4-ruby-on-rails-basics.md)
