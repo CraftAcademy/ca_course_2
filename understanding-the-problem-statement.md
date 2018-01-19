@@ -50,7 +50,7 @@ A well-told user story starts a conversation. A user story is an informal, natur
 
 Flowcharts are a modeling technique that can help you visualize a flow of actions, data inputs and outcomes. Here's a very simple flowchart for the process of withdrawing funds from an ATM.
 
-![](/assets/atm_flowchart_1.png)
+![](/assets/5c1018df-4843-4f1f-bb29-9aa60195139b.png)
 
 ## Naming is a process, not a single step
 
