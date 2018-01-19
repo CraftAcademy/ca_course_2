@@ -102,9 +102,9 @@ end
 The next check will be to make sure that the user passes in the right pin code when trying to withdraw money from his account - just as in normal life.
 
 ```
-As an Account holder             
+As an Bank Costumer              
 In order to keep my funds secure             
-I want  a secure Pin code & an expiry date on my card that allows only me access to my funds
+I want a secure Pin code & an expiry date on my card that allows only me access to my funds
 ```
 
 We will need to modify the `withdraw` to accept a `pin_code` at one of the arguments. This will have an effect on all our tests.

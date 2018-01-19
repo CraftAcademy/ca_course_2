@@ -8,9 +8,11 @@ Another thing we know is that one of the conditions for a successful transaction
 
 Knowing all this, we can build a method that tells us what bills we will get from the ATM.
 
-`As an Account holder    
-In order to withdraw bills    
-I want to receive funds in 5, 10 & 20$ bills`
+```
+As an User    
+In order to withdraw funds in even amounts  
+I want to receive funds in 5, 10 & 20$ bills
+```
 
 Let's try some stuff out in `irb`. **As always, read the comments as carefully as anything else in this documentation.**
 
