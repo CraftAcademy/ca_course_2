@@ -9,7 +9,7 @@ Another thing we know is that one of the conditions for a successful transaction
 Knowing all this, we can build a method that tells us what bills we will get from the ATM.
 
 ```
-As an User    
+As an Bank Costumer    
 In order to withdraw funds in even amounts  
 I want to receive funds in 5, 10 & 20$ bills
 ```
