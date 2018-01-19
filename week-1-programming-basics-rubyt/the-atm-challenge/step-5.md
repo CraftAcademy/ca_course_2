@@ -44,9 +44,9 @@ end
 Another check we need to do in the `withdraw` method is to see if there are funds in the ATM, right?  We can not perform a transaction if there are no funds in the machine.
 
 ```
-As a Bank
+As a ATM operator
 In order for our costumers to withdraw funds
-We need make sure that we only allow withdrawals if there are funds available
+I need make sure that we only allow withdrawals if there are funds available
 ```
 
 The ATM has a `funds` attribute. We can perform a check if the `amount` we try to withdraw is larger then the `funds` available.
@@ -102,7 +102,7 @@ end
 The next check will be to make sure that the user passes in the right pin code when trying to withdraw money from his account - just as in normal life.
 
 ```
-As an Bank Costumer              
+As a Customer              
 In order to keep my funds secure             
 I want a secure Pin code & an expiry date on my card that allows only me access to my funds
 ```
