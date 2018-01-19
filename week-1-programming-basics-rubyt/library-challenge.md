@@ -28,10 +28,11 @@ This challenge will provide you with an opporunity to practice a lot of your new
 
 ### Requirements
 
-We are approached by a newly built library. They need an app to keep track of all the books. Luckily they have only received an handful of books so far and this is the perfect time to create a prototype.
+We are approached by a newly built library. They need an app to keep track of all their books. Luckily they have only received an handful of books so far and this is the perfect time to create a prototype application that will keep track of the books.
 
-**We have a chat with the librarians and they give us some requirements:**  
-We need an app where both the visitors and the library can see if a list of books are available, it would be nice to see both the title and the author of the book. The library needs to store these books in a file where we can easily check if a book is available or not. The library also needs the visitors to check out books after finding the title they want. Depending on the time of the checkout the library needs the books to be returned within a month and obviously it would be nice for the visitor to know which date to return the book.
+Let's see what they have to say:
+
+_"We need an app where both the visitors and the library can see if a list of books are available, it would be nice to see both the title and the author of the book. The library needs to store these books in a file where we can easily check if a book is available or not. The library also needs the visitors to check out books after finding the title they want. Depending on the time of the checkout the library needs the books to be returned within a month and obviously it would be nice for the visitor to know which date to return the book."_
 
 You and your pairing partner needs to extract the user stories from the text above remember to keep it simple. Being a prototype we just need to see if the app works in IRB.
 
@@ -39,12 +40,13 @@ You and your pairing partner needs to extract the user stories from the text abo
 
 ---
 
+* Write appropriate user stories from the requirements
 * Fork the challenge repo: [https://github.com/CraftAcademy/library-challenge](https://github.com/CraftAcademy/library-challenge)
 * Run the command 'bundle' in the project directory to ensure you have all the gems
 * Write your specs and implementation
+
 * Be smart about using Git: commit and push often. Use feature branches.
 * Create a Pull Request as soon as possible
-* Read the comments from Hound and fix any issues that the service points out.
 
 ### Tips
 
