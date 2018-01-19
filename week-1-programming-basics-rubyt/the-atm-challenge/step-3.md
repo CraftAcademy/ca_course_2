@@ -12,13 +12,13 @@ I want to receive a message with my withdrawal details
 
 **This hash is the equivalent of a receipt that the Atm prints out in the real life.** It should look like this if the transaction was successful:
 
-```
+```ruby
 { status: true, message: 'success', date: '2016-01-30', amount: 35, bills: [20,10,5]}
 ```
 
 For unsuccessful transactions, it should look like this:
 
-```
+```ruby
 { status: false, message: '[reason for failure e. e. wrong pin]', date: '2016-01-30'}
 ```
 
@@ -57,7 +57,7 @@ The ATM needs to interact with another class - we will call it `Account`. The Ac
 ```
 As an ATM operator          
 In order for the right person to make a withdrawal            
-Each person need to have an separate account
+I want each person to have an separate account
 ```
 
 However, we have not created that class yet, so in out `atm_spec` we will use a so called `instance_double` in order to be able to test the functionality. Doubles are objects that can be used as stand-ins for instances of other classes \(hence the name `instance_double`\). Even if they still are not defined \(as in our case\). We will go over doubles more extensively further down the road in the camp. You can think of doubles as "fake" objects that we use for testing. We don't want to build the `Account` class yet, so we'll just make a fake one for now.
@@ -87,7 +87,7 @@ Okay, we want the `withdraw` method to have access to the `account` object in or
 ```
 As a ATM operator           
 In order ensure that an Acccount holder can only withdraw funds that he has balance for           
-We want to allow a withdrawal only if there are sufficient funds in the account
+I want to allow a withdrawal only if there are sufficient funds in the account
 ```
 
 First we will write a test and then we will modify the implementation code.
