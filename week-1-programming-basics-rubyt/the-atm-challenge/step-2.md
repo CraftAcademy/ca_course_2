@@ -4,8 +4,8 @@ My approach to writing new software is to always do the most important thing fir
 
 The user story:
 
-`As a User     
- In order to make an withdrawal    
+`As a User       
+ In order to make an withdrawal      
  The ATM needs to have funds`
 
 So let's start with creating a `ATM` class and assign some funds to each `ATM` that we create. You already know a little bit about classes from the [Prep Course material](https://craftacademy.gitbooks.io/caa_precourse/content/ruby/classes.html).
@@ -80,18 +80,20 @@ end
 
 Let's have another go at the spec.
 
-    $ rspec spec/atm_spec.rb
+```ruby
+$ rspec spec/atm_spec.rb
 
-    Atm
-      has 1000$ on initialize (FAILED - 1)
+Atm
+  has 1000$ on initialize (FAILED - 1)
 
-    Failures:
+Failures:
 
-      1) Atm has 1000$ on initialize
-         Failure/Error: expect(subject.funds).to eq 1000
+  1) Atm has 1000$ on initialize
+     Failure/Error: expect(subject.funds).to eq 1000
 
-         NoMethodError:
-           undefined method `funds' for #<Atm:0x007f8043fdf2a8>
+     NoMethodError:
+       undefined method `funds' for #<Atm:0x007f8043fdf2a8>
+```
 
 New error message? Cool!
 
@@ -107,7 +109,7 @@ end
 
 Another go at the spec and another error message.
 
-```
+```ruby
 $ rspec spec/atm_spec.rb
 
 Atm
@@ -140,7 +142,7 @@ end
 
 And now, when you run RSpec, the test passes.
 
-```
+```ruby
 $ rspec spec/atm_spec.rb
 
 Atm
