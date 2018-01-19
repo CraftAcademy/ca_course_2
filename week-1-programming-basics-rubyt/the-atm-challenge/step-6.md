@@ -54,6 +54,12 @@ end
 
 The next check will be to make sure that the user passes in the right pin code when trying to withdraw money from his account - just as in normal life.
 
+`As an Account holder           
+In order to keep my funds secure           
+I want to have a secure Pin code & an expiry date on my card that allows only me access to my funds`
+
+
+
 We will need to modify the `withdraw` to accept a `pin_code` at one of the arguments. This will have an effect on all our tests.
 
 !FILENAME lib/atm.rb
@@ -182,6 +188,10 @@ Can you understand what we are doing here?
 ### More checks
 
 It is time for you to start to write code on your own. There is yet another one check we need to perform. The `account_status` attribute will tell us if an account is `active` or `disabled`.
+
+`As a Bank           
+In order to allow access active customers           
+I want to allow withdrawals from only active accounts`
 
 Our `class_double` will be updated with this attribute to look like this.
 
