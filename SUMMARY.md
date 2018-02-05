@@ -26,4 +26,5 @@
 * [Week 7 - Going Mobile](week-7-going-mobile.md)
 * [Week 8 & 9 - Advanced SaaS Applications](week-8-and-9-advanced-saas-applications.md)
 * [Week 10 - Expose and Consume API's](week-10-expose-and-consume-apis.md)
+* [Configuring RSpec](configuring-rspec.md)
 
