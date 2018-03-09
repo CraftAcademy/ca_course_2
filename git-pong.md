@@ -1,42 +1,38 @@
 # **So you want to collaborate and write code with your pairing partner**
 
-
-
 #### **Step 1 Setting the stage**
 
 Create a new directory from your terminal
 
 ![](/assets/Screen Shot 2018-02-22 at 13.34.33.png)
 
-
-
 Move into the new directory
 
 ![](/assets/Screen Shot 2018-02-22 at 13.34.52.png)
 
-
-
 _**Both**_** **programmers fork the main repo![](/assets/Screen Shot 2018-02-22 at 13.47.27.png)
 
-**  
+**    
 **_**Both**_** **programmers clone the main repo
 
+
+
 ![](/assets/Screen Shot 2018-02-22 at 13.37.21.png)
+
+**Both** programmers clone the repo down to their local machines
+
+![](/assets/Screen Shot 2018-03-09 at 11.42.27.png)
 
 
 
 **Both** programmers add the main repo as the upstream![](/assets/Screen Shot 2018-02-22 at 15.15.55.png)
 
-
-
-Both programmer add each other as remote copy each others forked repo url and add those as a remote ![](/assets/Screen Shot 2018-02-22 at 13.39.10.png)**  
+Both programmer add each other as remote copy each others forked repo url and add those as a remote ![](/assets/Screen Shot 2018-02-22 at 13.39.10.png)**    
 **
 
 Check if all remotes are set it should look something like this
 
 ![](/assets/Screen Shot 2018-02-22 at 13.39.31.png)
-
-
 
 #### Step 2 Start ponging
 
@@ -46,8 +42,7 @@ Check if all remotes are set it should look something like this
 
 **Programmer 2** pulls from Programmer 1
 
-![](/assets/Screen Shot 2018-02-22 at 15.45.50.png)  
-
+![](/assets/Screen Shot 2018-02-22 at 15.45.50.png)
 
 **b\)**
 
@@ -57,12 +52,9 @@ Check if all remotes are set it should look something like this
 
 Programmer 1 pulls from Programmer 2
 
-![](/assets/Screen Shot 2018-02-22 at 15.49.11.png)  
-  
+![](/assets/Screen Shot 2018-02-22 at 15.49.11.png)
 
-
-And the process is repeated untill the project is completed  
-
+And the process is repeated untill the project is completed
 
 #### Step 3 Create a PR to the main repo
 
@@ -70,19 +62,9 @@ The last Programmer that finished the feature creates the Pull Request buy pushi
 
 ![](/assets/Screen Shot 2018-02-22 at 16.14.39.png)
 
-  
 Make sure that the base fork is the main repo and that your head fork is your own repo.  ![](/assets/Screen Shot 2018-02-22 at 16.15.41.png)
-
-
 
 Add information to the PR and press the "Create pull request" button and you are done!
 
-![](/assets/Screen Shot 2018-02-22 at 16.17.53.png)  
-
-
-  
-
-
-  
-
+![](/assets/Screen Shot 2018-02-22 at 16.17.53.png)
 
